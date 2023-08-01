@@ -10,20 +10,27 @@
     <main>
         <input id="inputSenhaId" type="text">
         <div>
-            <input id="inputComprimentoId" type="range" min="4" max="24">
-            <label for="comprimento"></label>
+            <input id="inputComprimentoId" type="range" min="6" max="24">
+            <label for="inputComprimentoId"></label>
         </div>
         <div>
-            <input id="checkMin" type="checkbox">
+            <input id="checkLower" type="checkbox">
             <label for="checkboxMinusculas">Letras Minúsculas</label>
         </div>
         <div>
-            <input id="checkMai" type="checkbox">
+            <input id="checkUpper" type="checkbox">
             <label for="checkboxMaiusculas">Letras Maiúsculas</label>
         </div>
         <div>
-            
+            <input id="checkNum" type="checkbox">
+            <label for="checkboxNumeros">Números</label>
         </div>
+        <div>
+            <input id="checkSymb" type="checkbox">
+            <label for="checkboxSimbolos">Símbolos</label>
+        </div>
+        <button id="btnGerar">Gerar Senha</button>
     </main>
+    <script src="assets/script.js"></script>
 </body>
 </html>
