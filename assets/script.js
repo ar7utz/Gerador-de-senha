@@ -44,15 +44,15 @@ const generatePassword = (
             ...(hasLower ? lowercaseChar : []),
             ...(hasUpper ? uppercaseChar : []),
         ];
-    
+
         if (novaArray.length === 0) return; //verificar se tiver informação no array
-    
+
         let senha = "";
         for (let i = 0; i < length; i++) {
             const randomIndex = Math.floor(Math.random() * novaArray.length); //math.floor para arredondar
             senha += novaArray[randomIndex];
-    
+
             inputPass.value = senha;
     }
     
-    };
+};

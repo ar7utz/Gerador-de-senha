@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
     <title>Gerador de Senha</title>
 </head>
 <body>
+    <h1>Gerador de senha</h1>
     <main>
         <input id="inputSenhaId" type="text" disabled>
         <div>
-            <input id="inputComprimentoId" type="range" min="6" max="24">
+            <input id="inputComprimentoId" type="range" min="8" max="24">
             <label for="inputComprimentoId"></label>
         </div>
         <div>
@@ -29,8 +31,14 @@
             <input id="checkSymb" type="checkbox">
             <label for="checkboxSimbolos">Símbolos</label>
         </div>
-        <button id="btnGerar">Gerar Senha</button>
+        <button id="btnGerar">Gerar</button>
     </main>
+    <footer>
+        <div>
+            <a href="https://github.com/ar7utz"> <i class="fa fa-github"> </i></a>
+            <a href="https://www.linkedin.com/in/artur-pereira-1b7071220/"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+    </footer>
     <script src="assets/script.js"></script>
 </body>
 </html>
