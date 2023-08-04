@@ -19,7 +19,7 @@ h1{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 0%; /*para colocar o titulo em cima da página*/
+    top: 7%; /*para colocar o titulo em cima da página*/
     font-size: 45px;
     text-transform: uppercase;
 }
@@ -87,4 +87,18 @@ button{
     color: white;
     border: none;
     padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+        top: 13%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    h1{
+        font-size: 25px;
+        top: 15%;
+    }
 }
